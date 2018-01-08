@@ -1,0 +1,99 @@
+body {
+  background: #efefef;
+  padding: 0;
+  margin: 0;
+  color: #444;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+	40% {
+    transform: translateY(-10px);
+  }
+	60% {
+    transform: translateY(-8px);
+  }
+}
+
+.heart {
+  color: #F95738;
+  font-size: 1rem;
+}
+
+.intro {
+  height: 100vh;
+  text-align: center;
+  background: #F95738;
+  color: #fff;
+  margin: 0 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+blockquote {
+  float: left;
+  width: 20%;
+  background: #e4e4e4;
+  padding: 20px;
+  margin-left: -4rem;
+  line-height: 1.36;
+  font-weight: 700;
+}
+.intro .words {
+  flex: 1 1 0;
+}
+.intro .scroll {
+  position: absolute;
+  font-size: 4rem;
+  bottom: -40px;
+}
+.intro .scroll p {
+  transform: scaleX(1.5);
+}
+.copy {
+  width: 50%;
+  margin: auto;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+h1.xl {
+  font-size: 25vh;
+  line-height: 1.4;
+  margin: 0;
+}
+h4 {
+  line-height: 1;
+  margin: 0;
+}
+p {
+  line-height: 1.36;
+}
+
+a {
+  font-weight: bolder;
+  color: #0072ac;
+  text-decoration: none;
+}
+
+footer {
+  padding: 4rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #444;
+  background: #e4e4e4;
+  margin-top: 4rem;
+}
+footer p {
+  line-height: 1.27;
+  margin: 0;
+  color: #777;
+}
