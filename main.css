@@ -1,5 +1,5 @@
 body {
-  background: #efefef;
+  background: #F1FEC6;
   padding: 0;
   margin: 0;
   color: #444;
@@ -37,7 +37,7 @@ body {
 blockquote {
   float: left;
   width: 20%;
-  background: #e4e4e4;
+  background: #B6D6CC;
   padding: 20px;
   margin-left: -4rem;
   line-height: 1.36;
@@ -89,11 +89,11 @@ footer {
   text-align: center;
   font-size: 0.8rem;
   color: #444;
-  background: #e4e4e4;
+  background: #74A4BC;
   margin-top: 4rem;
 }
 footer p {
   line-height: 1.27;
   margin: 0;
-  color: #777;
+  color: rgba(255, 255, 255, 0.7);
 }
